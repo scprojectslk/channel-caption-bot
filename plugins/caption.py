@@ -18,3 +18,9 @@ async def caption(client, message: Message):
 😉 ғɪʟᴍs & ᴛᴠ-sᴇʀɪᴇs (ɢᴀᴛᴀʏᴀ ᴏғғɪᴄɪᴀʟ) 😉
 ☆༺ ──•◈•─ ─•◈•──༻☆",
           
+reply_markup=InlineKeyboardMarkup(
+            [
+                [InlineKeyboardButton("♻️ ᴊᴏɪɴ ᴏᴜʀ ɢʀᴏᴜᴘ ♻️", url="https://t.me/")]
+            ]
+                                           )
+                      )
