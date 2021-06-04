@@ -1,0 +1,44 @@
+{
+    "name": "channel-caption-bot",
+    "description": "A Telegram bot for all your mirror needs",
+    "logo": "https://telegra.ph/file/6281e57d928f0e39e973c.jpg",
+    "keywords": [
+      "bot",
+      "telegram",
+      "python"
+    ],
+    "repository": "https://github.com/scprojectslk/channel-caption-bot",
+    "success_url": "https://t.me/SCProjectsLK",
+    "stack": "container",
+    "env": {
+      "ENV": {
+        "description": "Setting this to ANYTHING will enable Webhooks when in env mode",
+        "value": "ANYTHING"
+      },
+      "BOT_TOKEN": {
+        "description": "The telegram bot token that you get from @BotFather.",
+        "required": true
+      },
+      "OWNER_ID": {
+        "description": "The Telegram User ID of the Owner of the Bot. Get it by using /info in @MissRose_bot.",
+        "required": true
+      },
+      "TELEGRAM_API": {
+        "description": "This is to authenticate to your telegram account for downloading Telegram files. You can get this from https://my.telegram.org.",
+        "required": true
+      },
+      "TELEGRAM_HASH": {
+        "description": "This is to authenticate to your telegram account for downloading Telegram files. You can get this from https://my.telegram.org.",
+        "required": true
+      },
+      "HEROKU_APP_NAME": {
+        "description": "Add the Heroku app name here.",
+        "required": true
+      }
+    },
+    "addons": [
+      {
+        "plan": "heroku-postgresql"
+      }
+    ]
+}
