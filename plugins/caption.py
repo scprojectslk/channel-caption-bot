@@ -9,7 +9,7 @@ async def caption(client, message: Message):
     await message.edit("Your caption here",
           reply_markup=InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("Button Name", url="https://t.me/JEBotZ")]
+                [InlineKeyboardButton("Button Name", url="https://t.me/")]
             ]
                                            )
                       )
