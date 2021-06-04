@@ -5,6 +5,8 @@ This bot can add a caption for every document file sent to a channel. Just edit 
 ### Devs: 
 - [@ImJanindu](https://t.me/imjanindu)
 
-## Deploying To Heroku
+## Deploy To Heroku
 
 <p><a href="https://heroku.com/deploy?template=https://github.com/scprojectslk/channel-caption-bot"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200"/></a></p>
+
+- [@SCProjectsLK](https://t.me/)
