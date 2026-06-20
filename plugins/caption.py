@@ -6,21 +6,13 @@ from pyrogram.errors import FloodWait
 
 @Client.on_message(filters.document & filters.channel)
 async def caption(client, message: Message):
-    await message.edit("☆༺ ──•◈•─ ─•◈•──༻☆
-🌀☘ jϴῖͷ ῠϩ ϴͷ ϯϵlϵϭrαϻ ☘🌀
+    await message.edit("━━━━━•❅•°•❈•°•❅•━━━━━
+⚡𝙕𝙀𝙍𝙊 𝙒𝘼𝙄𝙏 • 𝙁𝘼𝙎𝙏𝙀𝙎𝙏 𝘿𝙍𝙊𝙋⚡
+━━━━━•❅•°•❈•°•❅•━━━━━
 
-⭐️ ᴛᴄ - @GatayaofficialChannel 
+🎬 From the team at 🦋 
+@KDD_Channels 🔮
 
-⭐️ ɢʀᴏᴜᴘ - @gatayaofficialnew 
+KDD I GROUP I OFFICIAL
 
-💎🍀 ร♄คгє & รยԹԹ๏гt ยร 🍀💎
-
-😉 ғɪʟᴍs & ᴛᴠ-sᴇʀɪᴇs (ɢᴀᴛᴀʏᴀ ᴏғғɪᴄɪᴀʟ) 😉
-☆༺ ──•◈•─ ─•◈•──༻☆",
-          
-reply_markup=InlineKeyboardMarkup(
-            [
-                [InlineKeyboardButton("♻️ ᴊᴏɪɴ ᴏᴜʀ ɢʀᴏᴜᴘ ♻️", url="https://t.me/")]
-            ]
-                                           )
-                      )
+♠️ ♥️ 𝗞-𝗗𝗿𝗮𝗺𝗮 𝗗𝗲𝗰𝗸 ♣️ ♦️,
